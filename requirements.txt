@@ -1,0 +1,16 @@
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# jupyter server
+jupyterlab
+ipykernel
+
+# others
+numpy
+pandas
+matplotlib
+
+# torch
+torch==2.8.0
+torchvision==0.23.0
+#torchaudio==2.8.0

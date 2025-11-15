@@ -5,8 +5,17 @@ It is intended solely for teaching and training purposes and is not an official 
 
 #### Step-1 : Environment Setup
 
+* install requirements
 
+```shell
+pip install -r requirements.txt
+```
 
+* create jupyter kernel
+
+```shell
+python -m ipykernel install --user --name=beijing-secondary-school-ai-contest-2025
+```
 
 #### Step-2 : unzip glove.6B.50d model
 
