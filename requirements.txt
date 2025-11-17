@@ -1,5 +1,9 @@
 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# for CPU only
 --extra-index-url https://download.pytorch.org/whl/cpu
+# for GPU and Cuda 12.9
+# --extra-index-url https://download.pytorch.org/whl/cu129
 
 # jupyter server
 jupyterlab
@@ -9,6 +13,7 @@ ipykernel
 numpy
 pandas
 matplotlib
+emoji
 
 # torch
 torch==2.8.0

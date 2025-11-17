@@ -2,3 +2,4 @@
 .venv
 .ipynb_checkpoints
 __pycache__
+glove.6B.50d.txt
